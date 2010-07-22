@@ -1,0 +1,26 @@
+Facebook Blocker Browser Extension
+==================================
+
+##Background
+We're beginning to feel overwhelmed by the frequency with which Facebook links are starting to appear on many of the sites we visit in our daily routines, so we decided to do something about it.
+
+#What does it do?
+This browser extension -- for Safari and Chrome -- stops Facebook social plugins (including those within iFrames) from running on sites other than Facebook itself. This includes 'Like' buttons, 'Recommended' lists, and should also stop any Facebook scripts from tracking your browsing history.
+
+##Will it break sites that use Facebook for good rather than evil?
+Don't worry: sites that use Facebook Connect for sign in purposes, or that use Facebook as a conduit for other functionality will continue to work as expected.
+
+##Supported Browsers
++ Safari (version 5 or later, with extension support enabled)
++ Chrome
+
+##Download
+[Safari Extension](http://github.com/downloads/alexrubin/Facebook-Blocker/facebookBlocker.safariextz)
+
+[Chrome Extension](http://github.com/downloads/alexrubin/Facebook-Blocker/facebookBlocker.crx)
+
+##Support
+Post them here in the "[issues](http://github.com/alexrubin/Facebook-Blocker/issues)" section of the repo.
+
+##Extension Update Log
+v1.0 -- Initial Public Release

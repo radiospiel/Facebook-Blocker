@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Author</key>
+	<string>Alex Rubin</string>
+	<key>CFBundleDisplayName</key>
+	<string>FacebookBlocker</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.webgraph.facebookBlocker</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>1.0</string>
+	<key>Chrome</key>
+	<dict/>
+	<key>Content</key>
+	<dict>
+		<key>Scripts</key>
+		<dict>
+			<key>Start</key>
+			<array>
+				<string>fbblock.js</string>
+			</array>
+		</dict>
+	</dict>
+	<key>Description</key>
+	<string>Block Facebook content from appearing on other websites.</string>
+	<key>ExtensionInfoDictionaryVersion</key>
+	<string>1.0</string>
+	<key>Permissions</key>
+	<dict>
+		<key>Website Access</key>
+		<dict>
+			<key>Include Secure Pages</key>
+			<true/>
+			<key>Level</key>
+			<string>All</string>
+		</dict>
+	</dict>
+	<key>Update Manifest URL</key>
+	<string>http://github.com/alexrubin/Facebook-Blocker/raw/master/safari/facebookblocker.safari.update.plist</string>
+	<key>Website</key>
+	<string>http://webgraph.com/resources/facebookblocker/</string>
+</dict>
+</plist>
