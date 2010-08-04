@@ -25,6 +25,15 @@ function removeIFRAMES(){
 		fb = tags[i];
 		fb.parentNode.removeChild(fb);
 	}
+	
+	var tags = content.document.getElementsByTagName("fb:share-button");
+	var fb;
+	
+	for (var i=0;i<tags.length;i++)
+	{
+		fb = tags[i];
+		fb.parentNode.removeChild(fb);
+	}
 }
 
 removeIFRAMES();
