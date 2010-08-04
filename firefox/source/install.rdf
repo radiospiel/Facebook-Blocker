@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<RDF:RDF xmlns:em="http://www.mozilla.org/2004/em-rdf#"
+         xmlns:NC="http://home.netscape.com/NC-rdf#"
+         xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <RDF:Description RDF:about="urn:mozilla:install-manifest"
+                   em:id="facebookBlocker@webgraph.com"
+                   em:type="2"
+                   em:name="FacebookBlocker"
+                   em:iconURL="chrome://facebookblocker/skin/icon-128.png"
+                   em:version="1.1"
+                   em:creator="Alex Rubin"
+                   em:contributor="Dan Rubin"
+                   em:description="Block Facebook content from appearing on other websites."
+                   em:homepageURL="http://webgraph.com/resources/facebookblocker"
+                   em:updateURL="http://github.com/alexrubin/Facebook-Blocker/raw/master/firefox/facebookblocker.firefox.update.rdf"
+                   em:updateKey="MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDBo41MRYUF93io4xvBe/mxtPcx78osXMgZi9sMll27K3dcxsvXZiyvlEuqYPpMYDlFyTVSJYx2VaQ9LcnaZrowsqHCq5N+HksonmWpHDUeg1oDDysLssv9kBiSq95XbxRXw7LeG1cJyo9PIHuFrz9K85iHb/T0bRcQW2Pbtz+KWQIDAQAB">
+    <em:targetApplication RDF:resource="rdf:#$ZMIxT3"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf:#$ZMIxT3"
+                   em:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   em:minVersion="3.0"
+                   em:maxVersion="3.*.*" />
+</RDF:RDF>
