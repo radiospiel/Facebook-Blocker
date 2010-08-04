@@ -11,11 +11,11 @@
                    em:minVersion="3.0"
                    em:maxVersion="3.*.*"
                    em:updateLink="http://github.com/downloads/alexrubin/Facebook-Blocker/facebookBlocker.xpi"
-                   em:updateHash="sha1:47ae143477f4dffe8aa451111d12fdbc92c23b5e" />
+                   em:updateHash="sha1:fd254dba8284ba1291f815e9fb45d7177b7f44e3" />
   <RDF:Description RDF:about="urn:mozilla:extension:facebookBlocker@webgraph.com"
                    em:version="1.1"
                    em:updateLink="http://github.com/downloads/alexrubin/Facebook-Blocker/facebookBlocker.xpi"
-                   em:signature="MIGTMA0GCSqGSIb3DQEBDQUAA4GBAIyDu3kR4UlabxjzXFvwWgP3sHbUjXuTn3yXKbCQZeSyhj7hr4EhhFGlA3SP5xclqShEf+w/NXcGwulyd94vyFcK3Pl79S2NKsn2PoZ6a/uzzwCAtHMTz9IN04igOYmnjj7Uh3NadmdSgkBr1hH5pfwlDt3KcBm1b+ajSaiT5D/6">
+                   em:signature="MIGTMA0GCSqGSIb3DQEBDQUAA4GBADgX/0HU70R10YE8Z2vxLYTndGcDqRN2zjw1rfsO2FkaxJQFXY/s1F0kMs+XXoCT9+qidJT51i5EotzOX4FupknWDaOQFLdGkJXnsdZUU9rl/YprIVpV9yMiXPiIeuW8ohYbU4JilwX4uPyCL6UJWEbTq9ZyJiA4oVUZEI/wW1eB">
     <em:updates RDF:resource="rdf:#$gNIxT3"/>
   </RDF:Description>
   <RDF:Seq RDF:about="rdf:#$gNIxT3">
