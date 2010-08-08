@@ -31,3 +31,5 @@ v1.0 -- Initial Public Release
 v1.1 -- Added Firefox extension and fixed a bug that caused Facebook Share badges to display.
 
 v1.1.1 (Chrome) -- Adjusted icon file names in manifest.
+
+v1.2 -- Added blocking for fbshare.me scripts and iframes.
