@@ -1,4 +1,4 @@
 content   facebookblocker	content/
-skin      facebookblocker   classic/1.0   skin/
+skin      facebookblocker	classic/1.0   skin/
 
 overlay   chrome://browser/content/browser.xul   chrome://facebookblocker/content/facebookblocker.xul

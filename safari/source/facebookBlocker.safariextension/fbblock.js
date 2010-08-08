@@ -2,7 +2,7 @@ document.addEventListener('beforeload', handleBeforeLoadEvent, true);
 
 function allowedToLoad(scriptURL, elementName, item) {
 	// Search scripts for these potential Facebook URLs
-	var findMe=new Array("facebook.com", "fbcdn.net", "facebook.net"); 
+	var findMe=new Array("facebook.com", "fbcdn.net", "facebook.net", "fbshare.me"); 
 	var site = window.location.toString();
 	
 	if(site.toLowerCase().indexOf("facebook.com") == -1){

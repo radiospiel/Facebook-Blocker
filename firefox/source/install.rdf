@@ -7,7 +7,7 @@
                    em:type="2"
                    em:name="FacebookBlocker"
                    em:iconURL="chrome://facebookblocker/skin/icon-128.png"
-                   em:version="1.1"
+                   em:version="1.2"
                    em:creator="Alex Rubin"
                    em:contributor="Dan Rubin"
                    em:description="Block Facebook content from appearing on other websites."
