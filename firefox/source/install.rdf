@@ -7,7 +7,7 @@
                    em:type="2"
                    em:name="FacebookBlocker"
                    em:iconURL="chrome://facebookblocker/skin/icon-128.png"
-                   em:version="1.2"
+                   em:version="1.2.1"
                    em:creator="Alex Rubin"
                    em:contributor="Dan Rubin"
                    em:description="Block Facebook content from appearing on other websites."
@@ -19,5 +19,5 @@
   <RDF:Description RDF:about="rdf:#$ZMIxT3"
                    em:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
                    em:minVersion="3.0"
-                   em:maxVersion="3.6.*" />
+                   em:maxVersion="4.*" />
 </RDF:RDF>

@@ -3,19 +3,19 @@
          xmlns:NC="http://home.netscape.com/NC-rdf#"
          xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <RDF:Description RDF:about="rdf:#$hNIxT3"
-                   em:version="1.2">
+                   em:version="1.2.1">
     <em:targetApplication RDF:resource="rdf:#$kNIxT3"/>
   </RDF:Description>
   <RDF:Description RDF:about="rdf:#$kNIxT3"
                    em:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
                    em:minVersion="3.0"
-                   em:maxVersion="3.*.*"
-                   em:updateLink="http://github.com/downloads/alexrubin/Facebook-Blocker/facebookBlocker_v1.2.xpi"
-                   em:updateHash="sha1:19af8916c10ebbcabf6505816d70c28cbf38a772" />
+                   em:maxVersion="4.*"
+                   em:updateLink="http://github.com/downloads/alexrubin/Facebook-Blocker/facebookBlocker_v1.2.1.xpi"
+                   em:updateHash="sha1:19ad41746ca3684dfd2f8b4a58dc40ca490ea56d" />
   <RDF:Description RDF:about="urn:mozilla:extension:facebookBlocker@webgraph.com"
-                   em:version="1.2"
-                   em:updateLink="http://github.com/downloads/alexrubin/Facebook-Blocker/facebookBlocker_v1.2.xpi"
-                   em:signature="MIGTMA0GCSqGSIb3DQEBDQUAA4GBALIWDLFfzFQxqbf376sSMJpBbfZOJaglKV144rvFW5sNXQygnTqxRoFsBgZ7Ce8mQ3A4D7f4fDJ68zmQ+4HYQZxWFaJCP58bmcl9fpurp0eAAFzqQbOZVin7vyR2Qxh/F5HkpSD/f5qAkzhRIhNjQCepoyJHmrqveA+K4h3ZbTGi">
+                   em:version="1.2.1"
+                   em:updateLink="http://github.com/downloads/alexrubin/Facebook-Blocker/facebookBlocker_v1.2.1.xpi"
+                   em:signature="MIGTMA0GCSqGSIb3DQEBDQUAA4GBABFELmuNlBWNImtsccRL7i3VRY0j6ZsZiL3iF2DPA6b6dhxDlIavKEHLboRtkDCRIJPeaKzVHMR0jbsLswa/LIiF8+sez7y7vb/SBhp6WQvAYtaBguVUxs2PC+hTxQ8A0dsCd1i8vyZEWS6m2Pec8WsyBbpuBoNwOYveQeJ0ya+w">
     <em:updates RDF:resource="rdf:#$gNIxT3"/>
   </RDF:Description>
   <RDF:Seq RDF:about="rdf:#$gNIxT3">
