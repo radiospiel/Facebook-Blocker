@@ -35,3 +35,5 @@ v1.1.1 (Chrome) -- Adjusted icon file names in manifest.
 v1.2 -- Added blocking for fbshare.me scripts and iframes.
 
 v1.2.1 (Firefox) -- Changed the MaxVersion to 4.0b to allow for use with Firefox 4 Beta.
+
+v1.2.1 (Chrome) -- Code cleaning.

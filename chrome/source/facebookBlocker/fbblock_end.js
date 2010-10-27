@@ -26,7 +26,7 @@ function removeIFRAMES(){
 		fb.parentNode.removeChild(fb);
 	}
 	
-	var tags = content.document.getElementsByTagName("fb:share-button");
+	var tags = document.getElementsByTagName("fb:share-button");
 	var fb;
 	
 	for (var i=0;i<tags.length;i++)
