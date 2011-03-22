@@ -11,8 +11,11 @@
                    em:creator="Alex Rubin"
                    em:contributor="Dan Rubin"
                    em:description="Block Facebook content from appearing on other websites."
-                   em:homepageURL="http://webgraph.com/resources/facebookblocker/">
-                       <em:targetApplication RDF:resource="rdf:#$ZMIxT3"/>
+                   em:homepageURL="http://webgraph.com/resources/facebookblocker"
+                   em:updateURL="http://github.com/alexrubin/Facebook-Blocker/raw/master/firefox/facebookblocker.firefox.update.rdf"
+                   em:updateKey="MIGTMA0GCSqGSIb3DQEBDQUAA4GBAFYnfeP20T4kADpCma5EmdrSEVfBLTGAtrNJWyljupqYTxOT9VpoMMapNLuTSwxopBaIP9rsf7YkhesSe32luRM2fZCSRqlPlL0wsYcLf8XGU1Kn09mHTrrkiSSBZH5FTF65SdabTTJzthrNxxSEZ4VLDtkDDAHSDDYWjEQS/rzP">
+<em:unpack>true</em:unpack>
+    <em:targetApplication RDF:resource="rdf:#$ZMIxT3"/>
   </RDF:Description>
   <RDF:Description RDF:about="rdf:#$ZMIxT3"
                    em:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
