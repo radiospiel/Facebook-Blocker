@@ -1,5 +1,6 @@
 const pageURL = document.domain;
 
+document.addEventListener('beforeload', handleBeforeLoadEvent, true);
 document.addEventListener('load', handleBeforeLoadEvent, true);
 
 function handleBeforeLoadEvent(event) {
@@ -15,15 +16,20 @@ function handleBeforeLoadEvent(event) {
 		}
 	}else if(element.nodeName == 'SCRIPT'){
 		if(element.src.toLowerCase().indexOf('static.ak.fbcdn.net') > 0){
+			event.preventDefault();
 			return false;
 		}else if(element.src.toLowerCase().indexOf('static.ak.connect.facebook.com') > 0){
 			return false;
 		}else if(element.src.toLowerCase().indexOf('fbshare.me') > 0){
 			return false;
+		}else if(element.src.toLowerCase().indexOf('api.facebook.com') > 0){
+			return false;
+		}else{
+			return true;
+			event.preventDefault();
 		}
+	}else{
 		return true;
+		event.preventDefault();
 	}
-	return true;
-	
-	event.preventDefault();
 }
