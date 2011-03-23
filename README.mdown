@@ -39,3 +39,5 @@ v1.2.1 (Firefox) -- Changed the MaxVersion to 4.0b to allow for use with Firefox
 v1.2.1 (Chrome) -- Code cleaning.
 
 v1.2.2 (Firefox) -- Updated for Firefox 4 support.
+
+v1.2.2 (Chrome) -- Bug Fixes.
