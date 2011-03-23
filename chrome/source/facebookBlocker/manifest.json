@@ -1,6 +1,6 @@
 {
   "name": "FacebookBlocker",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "Block Facebook content from appearing on other websites.",
 	"update_url": "http://github.com/alexrubin/Facebook-Blocker/raw/master/chrome/facebookblocker.chrome.update.xml",
 	"icons":{
