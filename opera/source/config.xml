@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<widget xmlns="http://www.w3.org/ns/widgets" id="extensions:FacebookBlocker" version="0.5">
+<widget xmlns="http://www.w3.org/ns/widgets" id="extensions:FacebookBlocker" version="0.9">
 	<name>Facebook Blocker</name>
 	<description>Block Facebook content from appearing on other websites.</description>
 	<author href="http://webgraph.com/resources/facebookblocker">Webgraph, Inc. (@facebookblocker)</author>
 	<icon src="icons/icon-128.png"/>
-	<update-description href="http://test.opera.com/api/w3c-wd1/update/opera-configurator-1.0-1/"/>
+	<update-description href="https://github.com/alexrubin/Facebook-Blocker/raw/master/opera/facebookblcoker.opera.update.xml"/>
 </widget>
