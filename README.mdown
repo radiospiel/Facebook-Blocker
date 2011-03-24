@@ -14,13 +14,16 @@ Don't worry: sites that use Facebook Connect for sign in purposes, or that use F
 + Safari (version 5 or later, with extension support enabled)
 + Chrome
 + Firefox (version 3 or later)
++ Opera (version 11 or later)
 
 ##Download
-[Safari Extension](http://github.com/downloads/alexrubin/Facebook-Blocker/facebookBlocker.safariextz)
+[Safari Extension](https://github.com/downloads/alexrubin/Facebook-Blocker/facebookBlocker_v1.2.safariextz)
 
-[Chrome Extension](http://github.com/downloads/alexrubin/Facebook-Blocker/facebookBlocker.crx)
+[Chrome Extension](https://github.com/downloads/alexrubin/Facebook-Blocker/facebookBlocker_v1.2.3.crx)
 
-[Firefox Extention](http://github.com/downloads/alexrubin/Facebook-Blocker/facebookBlocker.xpi)
+[Firefox Extention](https://github.com/downloads/alexrubin/Facebook-Blocker/facebookBlocker_v1.2.2.xpi)
+
+[Opera Extention](https://github.com/downloads/alexrubin/Facebook-Blocker/facebookblocker_v0.9.oex)
 
 ##Support
 Post them here in the "[issues](http://github.com/alexrubin/Facebook-Blocker/issues)" section of the repo.
@@ -41,3 +44,5 @@ v1.2.1 (Chrome) -- Code cleaning.
 v1.2.2 (Firefox) -- Updated for Firefox 4 support.
 
 v1.2.2 (Chrome) -- Bug Fixes.
+
+v0.9 (Opera) -- Initial Release
