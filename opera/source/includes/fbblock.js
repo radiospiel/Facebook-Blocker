@@ -4,11 +4,12 @@
 // @version 1.
 // @description Removes annoying Facebook garbage from websites.
 // @exclude http://*.facebook.*/*
+// @exclude https://*.facebook.*/*
 // ==/UserScript==
 
 window.opera.addEventListener('BeforeScript',function(ev)
 {
- if(ev.element.src.match(/^https?:\/\/(?:[^\/]+\.)*(?:facebook|fbcdn|fbshare)\.[^\/]+\//))
+ if(ev.element.src.match(/^https?:\/\/(?:[^\/]+\.)*(?:facebook|fbcdn|fbshare|fb|akamaihd)\.[^\/]+\//))
   ev.preventDefault();
 },false);
 
@@ -17,6 +18,6 @@ window.opera.addEventListener('BeforeEvent.load',function(ev)
 {
  	var element=ev.event.target;
 
- if(element.nodeName=='IFRAME' && element.src.match(/^https?:\/\/(?:[^\/]+\.)*(?:facebook|fbcdn|fbshare)\.[^\/]+\//))
+ if(element.nodeName=='IFRAME' && element.src.match(/^https?:\/\/(?:[^\/]+\.)*(?:facebook|fbcdn|fbshare|fb|akamaihd)\.[^\/]+\//))
   element.parentNode.removeChild(element);
 },false);

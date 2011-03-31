@@ -4,6 +4,7 @@
 // @version 1.
 // @description Removes annoying Facebook garbage from websites.
 // @exclude http://*.facebook.*/*
+// @exclude https://*.facebook.*/*
 // ==/UserScript==
 
 window.opera.addEventListener('BeforeScript',function(ev)

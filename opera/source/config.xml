@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<widget xmlns="http://www.w3.org/ns/widgets" id="extensions:FacebookBlocker" version="0.9">
+<widget xmlns="http://www.w3.org/ns/widgets" id="extensions:FacebookBlocker" version="0.9.1">
 	<name>Facebook Blocker</name>
 	<description>Block Facebook content from appearing on other websites.</description>
 	<author href="http://webgraph.com/resources/facebookblocker">Webgraph, Inc. (@facebookblocker)</author>

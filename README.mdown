@@ -46,3 +46,5 @@ v1.2.2 (Firefox) -- Updated for Firefox 4 support.
 v1.2.2 (Chrome) -- Bug Fixes.
 
 v0.9 (Opera) -- Initial Release (with the help of J. King & Dustin Wilson)
+
+v0.9.1 (Opera) -- Resolved issue with secure Facebook pages not loading.
