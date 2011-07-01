@@ -21,7 +21,7 @@ Don't worry: sites that use Facebook Connect for sign in purposes, or that use F
 
 [Chrome Extension](https://github.com/downloads/alexrubin/Facebook-Blocker/facebookBlocker_v1.2.3.crx)
 
-[Firefox Extention](https://github.com/downloads/alexrubin/Facebook-Blocker/facebookBlocker_v1.2.2.xpi)
+[Firefox Extention](https://github.com/downloads/alexrubin/Facebook-Blocker/facebookBlocker_v1.2.4.xpi)
 
 [Opera Extention](https://github.com/downloads/alexrubin/Facebook-Blocker/facebookblocker_v0.9.oex)
 
@@ -48,3 +48,5 @@ v1.2.2 (Chrome) -- Bug Fixes.
 v0.9 (Opera) -- Initial Release (with the help of J. King & Dustin Wilson)
 
 v0.9.1 (Opera) -- Resolved issue with secure Facebook pages not loading.
+
+v1.2.4 (Firefox) -- Updated for Firefox 5 support.

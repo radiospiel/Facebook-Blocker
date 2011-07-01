@@ -2,23 +2,23 @@
 <RDF:RDF xmlns:em="http://www.mozilla.org/2004/em-rdf#"
          xmlns:NC="http://home.netscape.com/NC-rdf#"
          xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <RDF:Description RDF:about="rdf:#$hNIxT3"
-                   em:version="1.2.1">
-    <em:targetApplication RDF:resource="rdf:#$kNIxT3"/>
-  </RDF:Description>
   <RDF:Seq RDF:about="rdf:#$gNIxT3">
     <RDF:li RDF:resource="rdf:#$hNIxT3"/>
   </RDF:Seq>
+  <RDF:Description RDF:about="rdf:#$hNIxT3"
+                   em:version="1.2.4">
+    <em:targetApplication RDF:resource="rdf:#$kNIxT3"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mozilla:extension:facebookBlocker@webgraph.com"
+                   em:version="1.2.4"
+                   em:updateLink="http://github.com/downloads/alexrubin/Facebook-Blocker/facebookBlocker_v1.2.4.xpi"
+                   em:signature="MIGTMA0GCSqGSIb3DQEBDQUAA4GBAJnbprTKlaPPkoFh0Manb+lyF5+s3bignZM3CUIH/DfypREmKbn4dCFx8PuJ+u47YNinxiuQ25in9np7b2T/jTQgUoyHcLt27i5yD5ag6p/3xYarrcmWcCCetgV8yTOvJp0Do6PGADaMa4SbO3m9+p3Tg8wm7hMY39fEmcZtFRYo">
+    <em:updates RDF:resource="rdf:#$gNIxT3"/>
+  </RDF:Description>
   <RDF:Description RDF:about="rdf:#$kNIxT3"
                    em:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
                    em:minVersion="3.0"
-                   em:maxVersion="4.0.*"
-                   em:updateLink="http://github.com/downloads/alexrubin/Facebook-Blocker/facebookBlocker_v1.2.2.xpi"
+                   em:maxVersion="5.0.*"
+                   em:updateLink="http://github.com/downloads/alexrubin/Facebook-Blocker/facebookBlocker_v1.2.4.xpi"
                    em:updateHash="sha1:8529fc851031d8b6b589ea802f0e1137d6568759" />
-  <RDF:Description RDF:about="urn:mozilla:extension:facebookBlocker@webgraph.com"
-                   em:version="1.2.2"
-                   em:updateLink="http://github.com/downloads/alexrubin/Facebook-Blocker/facebookBlocker_v1.2.2.xpi"
-                   em:signature="MIGTMA0GCSqGSIb3DQEBDQUAA4GBAH1ZIieb6kEsq59pqdfO6YcZ2jH9jcI3Kg6AsdC3NWFfoFjBNERWMR1w2Q0TR/AfZTNWcWDPGxo2w62faUvkCWuCkDadKFWlBaLHK3uBMX6XXBsiS7fqGlu5wUjHWyeHCkygs0ArmFe0oOufgJldKDVdia/e6e6W2A4Ko3941jOM">
-    <em:updates RDF:resource="rdf:#$gNIxT3"/>
-  </RDF:Description>
 </RDF:RDF>

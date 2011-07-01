@@ -7,18 +7,18 @@
                    em:type="2"
                    em:name="FacebookBlocker"
                    em:iconURL="chrome://facebookblocker/skin/icon-128.png"
-                   em:version="1.2.2"
+                   em:version="1.2.4"
                    em:creator="Alex Rubin"
                    em:contributor="Dan Rubin"
                    em:description="Block Facebook content from appearing on other websites."
                    em:homepageURL="http://webgraph.com/resources/facebookblocker"
                    em:updateURL="http://github.com/alexrubin/Facebook-Blocker/raw/master/firefox/facebookblocker.firefox.update.rdf"
-                   em:updateKey="MIGTMA0GCSqGSIb3DQEBDQUAA4GBAFYnfeP20T4kADpCma5EmdrSEVfBLTGAtrNJWyljupqYTxOT9VpoMMapNLuTSwxopBaIP9rsf7YkhesSe32luRM2fZCSRqlPlL0wsYcLf8XGU1Kn09mHTrrkiSSBZH5FTF65SdabTTJzthrNxxSEZ4VLDtkDDAHSDDYWjEQS/rzP">
+                   em:updateKey="MIGTMA0GCSqGSIb3DQEBDQUAA4GBAJnbprTKlaPPkoFh0Manb+lyF5+s3bignZM3CUIH/DfypREmKbn4dCFx8PuJ+u47YNinxiuQ25in9np7b2T/jTQgUoyHcLt27i5yD5ag6p/3xYarrcmWcCCetgV8yTOvJp0Do6PGADaMa4SbO3m9+p3Tg8wm7hMY39fEmcZtFRYo">
 <em:unpack>true</em:unpack>
     <em:targetApplication RDF:resource="rdf:#$ZMIxT3"/>
   </RDF:Description>
   <RDF:Description RDF:about="rdf:#$ZMIxT3"
                    em:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
                    em:minVersion="3.0"
-                   em:maxVersion="4.0.*" />
+                   em:maxVersion="5.0.*" />
 </RDF:RDF>
