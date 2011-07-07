@@ -34,6 +34,15 @@ function removeIFRAMES(){
 		fb = tags[i];
 		fb.parentNode.removeChild(fb);
 	}
+// kill fb comments too
+	var tags = document.getElementsByTagName("fb:comments");
+	var fb;
+	
+	for (var i=0;i<tags.length;i++)
+	{
+		fb = tags[i];
+		fb.parentNode.removeChild(fb);
+	}
 }
 
 removeIFRAMES();
