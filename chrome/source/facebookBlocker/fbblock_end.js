@@ -16,24 +16,20 @@ function removeIFRAMES(){
 			// }
 		}
 	}
+
+
+  var tags_list=["fb:like-box", "fb:like", "fb:share-button", "fb:comments" ];  
+	var tags, fb, tag;
 	
-	var tags = document.getElementsByTagName("fb:like");
-	var fb;
+  for(var j=0; j<tags_list.lenghth; i++) {
+      tags = document.getElementsByTagName( tags_list[i] );
+      for (var i=0;i<tags.length;i++)
+      {
+        fb = tags[i];
+        fb.parentNode.removeChild(fb);
+      }
+  }
 	
-	for (var i=0;i<tags.length;i++)
-	{
-		fb = tags[i];
-		fb.parentNode.removeChild(fb);
-	}
-	
-	var tags = document.getElementsByTagName("fb:share-button");
-	var fb;
-	
-	for (var i=0;i<tags.length;i++)
-	{
-		fb = tags[i];
-		fb.parentNode.removeChild(fb);
-	}
 }
 
 removeIFRAMES();
