@@ -22,7 +22,7 @@ function removeIFRAMES(){
 	var tags, fb, tag;
 	
   for(var j=0; j<tags_list.lenghth; i++) {
-      tags = document.getElementsByTagName( tags_list[i] );
+      tags = document.getElementsByTagName( tags_list[j] );
       for (var i=0;i<tags.length;i++)
       {
         fb = tags[i];
