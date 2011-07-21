@@ -21,7 +21,7 @@ function removeIFRAMES(){
   var tags_list=["fb:like-box", "fb:like", "fb:share-button", "fb:comments" ];  
 	var tags, fb, tag;
 	
-  for(var j=0; j<tags_list.lenghth; i++) {
+  for(var j=0; j<tags_list.lenghth; j++) {
       tags = document.getElementsByTagName( tags_list[j] );
       for (var i=0;i<tags.length;i++)
       {
